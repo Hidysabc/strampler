@@ -1,4 +1,4 @@
-# Image Tile Sampler for Machine Learning
+# Image Tile Sampler
 
 A sampler that samples tile from large images with equal probability of getting
 each class.

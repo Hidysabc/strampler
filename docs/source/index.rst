@@ -1,17 +1,17 @@
-.. tile-sampler documentation master file, created by
+.. strampler documentation master file, created by
    sphinx-quickstart on Sat Jun 10 12:28:55 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Tile Sampler
-============
+General Stratified Sampler
+==========================
 
-A sampler that samples tile from large images with equal probability of getting
-each class.
+A general stratified sampler that samples subset of large data with equal
+probability of getting each class.
 
 The original use case is for performing machine learning on pathology slide
-images. However it can be used for other types of large images which are too
-big to be loaded into learning model thus have to be tiled.
+images. However it can be developed for other types of large input data which
+are too big to be loaded into learning model thus have to be tiled.
 
 .. toctree::
    :maxdepth: 4

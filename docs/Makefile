@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = tile-sampler
+SPHINXPROJ    = strampler
 SOURCEDIR     = source
 BUILDDIR      = build
 

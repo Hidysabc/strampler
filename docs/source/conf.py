@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# tile-sampler documentation build configuration file, created by
+# strampler documentation build configuration file, created by
 # sphinx-quickstart on Sat Jun 10 12:28:55 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -20,7 +20,7 @@ import os
 import sys
 
 # Run sphinx-apidoc automatically
-os.system('sphinx-apidoc -o api -T ../../tilesampler --separate')
+os.system('sphinx-apidoc -o api -T ../../strampler --separate')
 
 sys.path.insert(0, os.path.abspath('../../'))
 
@@ -55,7 +55,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'tile-sampler'
+project = u'strampler'
 copyright = u'2017, Wei-Yi Cheng, Hidy Chiu'
 author = u'Wei-Yi Cheng, Hidy Chiu'
 
@@ -109,7 +109,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'tile-samplerdoc'
+htmlhelp_basename = 'stramplerdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -136,7 +136,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'tile-sampler.tex', u'tile-sampler Documentation',
+    (master_doc, 'strampler.tex', u'strampler Documentation',
      u'Wei-Yi Cheng, Hidy Chiu', 'manual'),
 ]
 
@@ -146,7 +146,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'tile-sampler', u'tile-sampler Documentation',
+    (master_doc, 'strampler', u'strampler Documentation',
      [author], 1)
 ]
 
@@ -157,8 +157,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'tile-sampler', u'tile-sampler Documentation',
-     author, 'tile-sampler', 'One line description of project.',
+    (master_doc, 'strampler', u'strampler Documentation',
+     author, 'strampler', 'One line description of project.',
      'Miscellaneous'),
 ]
 
