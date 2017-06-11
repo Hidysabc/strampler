@@ -36,7 +36,7 @@ class ImageStrampler(Strampler):
             raise ValueError("Tile size cannot be zero or negative!")
 
         if (x < 0 or y < 0 or
-            x+h > image.size[1] or y+w > self.image.size[0]):
+            x+h > image.size[1] or y+w > image.size[0]):
             raise BoundaryError("Request size exceeds image boundary!")
 
         return arr[x:(x+h), y:(y+w)]
